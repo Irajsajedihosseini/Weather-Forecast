@@ -112,5 +112,19 @@ body {
     .card{
        margin: 20px auto;
     }
-    
+    .search input {
+        position: relative;
+        right: 8%;
+    }
+    .search button {
+        display: block;
+        position: relative;
+        right: 8%;
+        width: 45px;
+        border-radius: 50%;
+    }   
+    .search img{
+        width: 45px;
+        border-radius: 50%;
+    }
 }
