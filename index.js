@@ -25,7 +25,7 @@ async function checkWeather(city) {
        $(".wind").html(data.wind.speed + "km/h");
        console.log(data.weather[0].main);
        var picSrc = "images/" + data.weather[0].main + ".png";
-        $(".weather weather-img").attr("src", picSrc);
+        $(".weather .weather-img").attr("src", picSrc);
         $(".error").css("display", "none");
         $(".weather").css("display", "block");
     }
