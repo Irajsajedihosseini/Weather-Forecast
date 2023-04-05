@@ -127,4 +127,8 @@ body {
         width: 45px;
         border-radius: 50%;
     }
+    .weather-img{
+      width: 120px;
+    }
+      
 }
