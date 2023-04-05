@@ -75,6 +75,9 @@ body {
   margin-top: -10px;
 }
 
+.weather-img{
+  width:80%;
+}
 .details {
   display: flex;
   align-items: center;
